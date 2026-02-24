@@ -1,6 +1,6 @@
 "use strict";
 
-console.log(getRandomInt());
+console.log(getRandomInt);
 // global variables
 let randomNum = 0;
 let tries = 0;
@@ -33,10 +33,11 @@ const guessClick = () => {
         const lastWord = (tries === 1) ? "try" : "tries";
         message = `You guessed it in ${tries} ${lastWord}!`;
     }
+    let color = "black";
     switch (true) {
         case (distance === 0):
             const lastWord = (tries === 1) ? "try" : "tries";
-            message = `Fire! You guessed it in ${tries} ${lastWord}!`;
+            message = 'Fire! You guessed it in ${tries} ${lastWord}!`;
             color = "green";
             updateBestScore();
             break;
@@ -52,26 +53,26 @@ const guessClick = () => {
             message = 'Warm (Within 20)';
             color = "orange";
             break;
-        case (distance >= 30):
+        case (distance <= 30):
             message = 'Cold (Within 30)';
             color = "lightblue";
             break;
-        case (distance >= 40):
+        case (distance <= 40):
             message = 'Colder (Within 40)';
             color = "blue";
             break;
-        case (distance >= 100):
+        default:
             message = 'Otherwise Freezing (Way Off)';
             color = "darkblue";
     }
-    document.querySelector("#message").textContent = message;
+    const messageEl = document.querySelector("#message")
+    messageEl.style.color = color;
+    messageEl.textContent = message;
 };
 
-const updateBestScore = () => {}
+const updateBestScore = () => {
 
-
-
-
+}
 const playAgainClick = () => {
     randomNum = getRandomInt(100);
     tries = 0;
