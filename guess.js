@@ -8,6 +8,7 @@ GitHub: https://github.com/tarath01/CH5_Guessing
 Program Summary: This program generates a random number
 between 1 and 100. The user is to attempt to guess the number. The program provides
 feedback in a color code based on how close your guess is.
+
  */
 
 
@@ -28,7 +29,7 @@ const getRandomInt = (max = 100) => {
 // event handler functions
 const guessClick = () => {
     const guess = parseInt(document.querySelector("#number").value);
-    const distance = Math.abs(randomNum - guess);
+    const distance = Math.abs(randomNum - guess); // used AI on this part to help with this specific part
 
     let color = "black";
     let message = "";
