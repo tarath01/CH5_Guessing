@@ -27,6 +27,7 @@ Some new concepts included were coding functions
 and handling events.<br>
 Such as adding new functions, Arrow Functions, Event Handlers, 
 and etc.
+
 ---------------
 
 ## ScreenShots
