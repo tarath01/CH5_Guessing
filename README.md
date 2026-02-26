@@ -12,29 +12,55 @@
   - [Fire](#fire)
 - [Maintainers](#maintainers)
 
+-------------------------
 ## Summary
 Welcome to the Hot & Cold Guessing Game.
+
 ----------------------------------------
 Here you will be guessing between the numbers 1 & 100.
 <br>
 This Guessing Game is a fun hot/cold game that will signal when your far or close to the 
 number!
 
+## New Concepts
+Some new concepts included were coding functions
+and handling events.<br>
+Such as adding new functions, Arrow Functions, Event Handlers, 
+and etc.
+---------------
+
 ## ScreenShots
+
+----------------
 ### Hot
 ![Hot](assets/hot.png)
+
+-----
 ### Warmer
 ![Warmer](assets/warmer.png)
+
+-------------------
 ### Warm
 ![Warm](assets/warm.png)
+
+----------------
 ### Cold
 ![Cold](assets/cold.png)
+
+-------------------
+
 ### Colder
 ![Colder](assets/colder.png)
+
+------------------
 ### Freezing
 ![Freezing](assets/freezing.png)
+
+-------------------
 ### Fire
 ![Fire](assets/bestscore.png)
+
+--------------------
 ### Maintainers
 [@tarath01](https://github.com/tarath01) Taylor Rath <br>
 
