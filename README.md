@@ -2,6 +2,7 @@
 
 <b>Table of Contents</b>
 - [Summary](#summary)
+- [New Concepts](#new-concepts)
 - [Screenshots](#screenshots)
   - [Hot](#hot)
   - [Warmer](#warmer)
